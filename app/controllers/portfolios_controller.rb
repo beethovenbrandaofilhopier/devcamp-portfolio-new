@@ -16,6 +16,7 @@ class PortfoliosController < ApplicationController
   end
 
   def create
+    #ultimate_test
     @portfolio_item = Portfolio.new(params.require(:portfolio).permit(:title, :subtitle, :body,
       technologies_attributes: [:name]))
 
