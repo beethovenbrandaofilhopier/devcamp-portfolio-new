@@ -10,6 +10,7 @@ class PortfoliosController < ApplicationController
   end
 
   def new
+    #brand_new_test
     @portfolio_item = Portfolio.new
     3.times { @portfolio_item.technologies.build }
   end
