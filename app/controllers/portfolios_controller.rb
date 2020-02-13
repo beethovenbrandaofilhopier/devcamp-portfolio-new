@@ -5,6 +5,7 @@ class PortfoliosController < ApplicationController
   end
 
   def angular
+    #another_test
     @angular_portfolio_items = Portfolio.angular
   end
 
