@@ -1,5 +1,6 @@
 class PortfoliosController < ApplicationController
   def index
+    #test
     @portfolio_items = Portfolio.all
   end
 
