@@ -35,6 +35,7 @@ class PortfoliosController < ApplicationController
   end
 
   def update
+    #final_test
     @portfolio_item = Portfolio.find(params[:id])
 
     respond_to do |format|
