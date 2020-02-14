@@ -30,6 +30,7 @@ class PortfoliosController < ApplicationController
   end
 
   def edit
+    #another_one
     @portfolio_item = Portfolio.find(params[:id])
   end
 
