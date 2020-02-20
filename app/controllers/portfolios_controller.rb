@@ -48,6 +48,7 @@ class PortfoliosController < ApplicationController
   end
 
   def show
+    #one_more_test
     @portfolio_item = Portfolio.find(params[:id])
   end
 
