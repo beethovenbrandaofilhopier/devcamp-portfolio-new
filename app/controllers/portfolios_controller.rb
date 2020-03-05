@@ -53,6 +53,7 @@ class PortfoliosController < ApplicationController
   end
 
   def destroy
+    #change change
     @portfolio_item = Portfolio.find(params[:id])
 
     @portfolio_item.destroy
